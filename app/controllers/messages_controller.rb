@@ -4,10 +4,9 @@ class MessagesController < ApplicationController
      @message = Message.new
      @room = Room.find(params[:room_id])
      @messages = @room.messages.includes(:user)
-     session[:sample] = 1
   end
  
-   def create
+  def create
      @room = Room.find(params[:room_id])
      @message = @room.messages.new(message_params)
      if @message.save
@@ -23,9 +22,4 @@ class MessagesController < ApplicationController
   def message_params
     params.require(:message).permit(:content, :image).merge(user_id: current_user.id)
   end
-
-  def puts_sample
-    puts 'sample'
-  end
-  
 end
