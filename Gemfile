@@ -59,3 +59,6 @@ gem 'pry-rails'
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
 
+group :production do
+  gem 'unicorn', '5.4.1'
+end
