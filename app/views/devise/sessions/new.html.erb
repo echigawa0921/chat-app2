@@ -26,8 +26,17 @@
           <div class='actions'>
             <%= f.submit "Log in", class: 'btn'%>
           </div>
-        </div>
-      <% end %>
-    </div>
+          <div class="btn">
+            <div class="btn">
+             <%= form_with model: @user, url: user_session_path, class: 'new_user', local: true do |f| %>
+               <%= f.hidden_field :email, value: 'guest@example.com' %><br /></div>
+               <%= f.hidden_field :password, value: 'password' %><br /></div
+               <div class='actions'>
+               <%= f.submit "ゲストユーザー", class: 'btn'%>
+             </div>
+              <% end %> 
+           </div>
+           <% end %>
+          </div>
   </div>
 </div>
