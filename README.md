@@ -23,7 +23,7 @@ You can feel free to enjoy making pixel art style physics simulations.
 
 # Requirement
 
-* Python 3.6.5
+* Ruby on rails 
 * pyxel 1.0.2
 
 Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
