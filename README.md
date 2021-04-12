@@ -4,7 +4,7 @@ Slackをイメージしたコミュニケーションチャットアプリです
 ゲストログインからトークを作成して会話してみてください！
 
 # DEMO
-<img width="800" alt="スクリーンショット 2021-04-12 21 59 17" src="https://user-images.githubusercontent.com/69971834/114398307-9cc0f800-9bda-11eb-9483-76db75c45e0e.png　 ">
+<img width="800" alt="スクリーンショット 2021-04-12 21 59 17" src="https://user-images.githubusercontent.com/69971834/114398307-9cc0f800-9bda-11eb-9483-76db75c45e0e.png">
 
 
 
