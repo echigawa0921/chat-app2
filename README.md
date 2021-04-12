@@ -3,30 +3,30 @@
 Slackをイメージしたコミュニケーションチャットアプリです。
 ゲストログインからトークを作成して会話してみてください！
 
-# 見本.DEMO
+# 見本
 <img width="800" alt="スクリーンショット 2021-04-12 21 59 17" src="https://user-images.githubusercontent.com/69971834/114398307-9cc0f800-9bda-11eb-9483-76db75c45e0e.png">
 
 
-# 環境.Dependency
+# 環境
 ruby 2.6.5  
 Ruby on rails 6.0.0  
 mysql2 0.4.4  
 unicorn 5.4.1  
 
-# 使い方.how to use
+# 使い方
 気軽に体験頂けるように、「ゲストユーザー」機能をつけております。
 画像右記よりログインください。
 <img width="1437" alt="スクリーンショット 2021-04-12 22 11 34" src="https://user-images.githubusercontent.com/69971834/114399764-405ed800-9bdc-11eb-83c0-d79aa5c5cf6d.png">
 
-# こだわり.Commitment
+# こだわり
 ・チャットを送信した際、画面に即表示される
 ・作成されたアカウントであればトークルームを作ることが可能
 
 
-# 作成者.Author
+# 作成者
 yuki.Echigawa
 
-# 情報提供元.References
+# 情報提供元
 TECH CAMP
 Thank you!
 
