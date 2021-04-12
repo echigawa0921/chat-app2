@@ -7,64 +7,27 @@ Slackをイメージしたコミュニケーションチャットアプリです
 <img width="800" alt="スクリーンショット 2021-04-12 21 59 17" src="https://user-images.githubusercontent.com/69971834/114398307-9cc0f800-9bda-11eb-9483-76db75c45e0e.png">
 
 
+# Dependency
+ruby 2.6.5
+Ruby on rails 6.0.0
+mysql2 0.4.4
+unicorn 5.4.1
 
-# Features
+# how to use
+気軽に体験頂けるように、「ゲストユーザー」機能をつけております。
+画像右記よりログインください。
+<img width="1437" alt="スクリーンショット 2021-04-12 22 11 34" src="https://user-images.githubusercontent.com/69971834/114399764-405ed800-9bdc-11eb-83c0-d79aa5c5cf6d.png">
 
-Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
+# Commitment
+・チャットを送信した際、画面に即表示される
+・作成されたアカウントであればトークルームを作ることが可能
 
-```python
-import pyxel
-```
-[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
-You can feel free to enjoy making pixel art style physics simulations.
-
-# Requirement
-
-* Ruby on rails 
-* pyxel 1.0.2
-
-Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
-
-```bash
-conda create -n pyxel pip python=3.6 Anaconda
-activate pyxel
-```
-
-# Installation
-
-Install Pyxel with pip command.
-
-```bash
-pip install pyxel
-```
-
-# Usage
-
-Please create python code named "demo.py".
-And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
-
-Run "demo.py"
-
-```bash
-python demo.py
-```
-
-# Note
-
-I don't test environments under Linux and Mac.
 
 # Author
+yuki.Echigawa
 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
-
-# License
-
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-Enjoy making cute physics simulations!
-
+# References
+TECH CAMP
 Thank you!
 
 # テーブル設計
